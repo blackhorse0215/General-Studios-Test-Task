@@ -14,22 +14,20 @@ function ProductFrom(data){
     const [id, setId] = useState('')
 
 
-    // const closeDetails=()=>{
-        var divs = document.querySelectorAll('.Closeproductdetails')
-        var elements = document.querySelectorAll('.product_details')
+    var divs = document.querySelectorAll('.Closeproductdetails')
+    var elements = document.querySelectorAll('.product_details')
 
-        divs.forEach((div, index)=>{
-            div.addEventListener('click', function(){
-                elements[index].classList.remove('max-md:bottom-0')
-                elements[index].classList.add('max-md:bottom-m400px')
-            })
+    divs.forEach((div, index)=>{
+        div.addEventListener('click', function(){
+            elements[index].classList.remove('max-md:bottom-0')
+            elements[index].classList.add('max-md:bottom-m400px')
         })
-    // }
+    })
 
 
     const handleAddToCart = (e) => {
         if(state ==true && id){
-            const quantity = 1; // Adjust the quantity as needed
+            const quantity = 1;
     
             fetch('/cart/add.js', {
                 method: 'POST',
@@ -43,12 +41,11 @@ function ProductFrom(data){
             })
             .then(response => response.json())
             .then(data => {
-            console.log('Product added to cart:', data);
-            document.querySelector('cart-drawer').classList.add('active');
-            // Optionally, you can refresh the cart page or update the cart UI here
+                console.log('Product added to cart:', data);
+                document.querySelector('cart-drawer').classList.add('active');
             })
             .catch(error => {
-            console.error('Error adding product to cart:', error);
+                console.error('Error adding product to cart:', error);
             });
         }
       };
