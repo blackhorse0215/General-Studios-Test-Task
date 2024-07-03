@@ -223,6 +223,228 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "FAQsidebar": {
+        "type": "FAQsidebar",
+        "blocks": {
+          "faq_sidebar_block_4d96t7": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Ordering"
+            }
+          },
+          "faq_sidebar_block_xwibjq": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Shipping & Delivery"
+            }
+          },
+          "faq_sidebar_block_Eq4RW4": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Refunds & Exchanges"
+            }
+          },
+          "faq_sidebar_block_K9qTzm": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Privacy"
+            }
+          },
+          "faq_sidebar_block_hD4jCN": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Legal"
+            }
+          },
+          "faq_sidebar_block_bLNVEf": {
+            "type": "faq_sidebar_block",
+            "settings": {
+              "text_item": "Gear Ring"
+            }
+          }
+        },
+        "block_order": [
+          "faq_sidebar_block_4d96t7",
+          "faq_sidebar_block_xwibjq",
+          "faq_sidebar_block_Eq4RW4",
+          "faq_sidebar_block_K9qTzm",
+          "faq_sidebar_block_hD4jCN",
+          "faq_sidebar_block_bLNVEf"
+        ],
+        "settings": {
+        }
+      },
+      "FAQcontent": {
+        "type": "FAQcontent",
+        "blocks": {
+          "header_bfH86W": {
+            "type": "header",
+            "settings": {
+              "text_item": "Shipping & Delivery"
+            }
+          },
+          "tab_ciAgXz": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_frWUKL": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "header_WbH3bw": {
+            "type": "header",
+            "settings": {
+              "text_item": "Privacy"
+            }
+          },
+          "tab_BTHBgD": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_r39T3Q": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_jmBkMg": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_MMcgpQ": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "header_CHFK3d": {
+            "type": "header",
+            "settings": {
+              "text_item": "Refunds & Exchanges"
+            }
+          },
+          "tab_mmNGPn": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_rATVWA": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_Hqa4XU": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "header_XmWqNe": {
+            "type": "header",
+            "settings": {
+              "text_item": "Gear Ring"
+            }
+          },
+          "tab_aT8deC": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_nQ3iLc": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_g9FpjU": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "header_Eh9RxP": {
+            "type": "header",
+            "settings": {
+              "text_item": "Legal"
+            }
+          },
+          "tab_MRi3dq": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "tab_DCPDMG": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          },
+          "header_UpNiAg": {
+            "type": "header",
+            "settings": {
+              "text_item": "Ordering"
+            }
+          },
+          "tab_pjyXtJ": {
+            "type": "tab",
+            "settings": {
+              "question": "Consectetur tincidunt risus nunc lacus porttitor sapien sit.",
+              "answer": "<p>For orders within the United States, we offer shipping either through the United States Postal Service (USPS) or FedEx for faster Express shipments. For the USPS, you may select either First Class Mail (3-5 business days) or Priority Mail (3 business days). You may also select FedEx 2-Day shipping or FedEx Overnight shipping.<\/p><p><br\/>For any international orders (locations outside of the United States), you may select either standard shipping with USPS or expedited with FedEx Express.<\/p><p><br\/>For orders outside of the United States, please note that we are not responsible to cover any taxes\/duty\/Value Added Tax (VAT), etc. that your country may charge.<\/p><p><br\/>We do our best to get your package delivered to you within the estimated times. If you are concerned about getting your package by a certain date, we strongly recommend selecting Express shipping at the time of checkout.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "header_bfH86W",
+          "tab_ciAgXz",
+          "tab_frWUKL",
+          "header_WbH3bw",
+          "tab_BTHBgD",
+          "tab_r39T3Q",
+          "tab_jmBkMg",
+          "tab_MMcgpQ",
+          "header_CHFK3d",
+          "tab_mmNGPn",
+          "tab_rATVWA",
+          "tab_Hqa4XU",
+          "header_XmWqNe",
+          "tab_aT8deC",
+          "tab_nQ3iLc",
+          "tab_g9FpjU",
+          "header_Eh9RxP",
+          "tab_MRi3dq",
+          "tab_DCPDMG",
+          "header_UpNiAg",
+          "tab_pjyXtJ"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
