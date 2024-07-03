@@ -1,0 +1,56 @@
+
+<link rel="stylesheet" href="{{ 'HomeCollection.css' | asset_url }}">
+
+<div class="min-h-dvh flex flex-col justify-end">
+    <div class="py-50px pl-30px pr-100px gap-x-20px gap-y-50px flex flex-wrap max-lg:pr-50px max-2xl:pr-120px max-2xl:py-100px max-2xl:pl-50px max-sm:pl-20px max-sm:pr-20px max-sm:justify-around">
+        {% assign all_products = collections.all.products %}
+        {% for product in all_products %}
+            <div class="homecollection flex flex-col cursor-pointer">
+                <div class="relative">
+                    <img class="relative w-200px max-2xl:w-120px h-120px object-cover transition-all duration-200 ease hover:transform hover:translate-y-b20px" src="{{ product.images[0] | image_url }}" alt="">
+                </div>
+                <p class="w-full break-words text-center text-15px">{{ product.title }}</p>       
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+  var ks = {{ all_products | json }}
+  console.log(ks);
+
+</script>
+
+{% schema %}
+{
+    "name": "Home_collection",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+
+    ],
+    "blocks": [
+        {
+            "type": "collection_block",
+            "name":"collection_block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "collection_image",
+                    "label": "Collection Image"
+                },
+                {
+                    "type": "text",
+                    "id":"collection_text",
+                    "label": "collection_text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Home_collection"
+        }
+    ]
+}
+{% endschema %}

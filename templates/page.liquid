@@ -1,0 +1,45 @@
+<div class="grid grid-cols-10 h-full pr-70px max-lg:grid-cols-2 max-md:pr-0">
+  <div class="col-span-1 max-lg:col-span-0"></div>
+  <div class="ml-0 grid grid-cols-custom col-span-9 max-lg:col-span-2 max-md:block max-md:w-full">
+    <div class="faqsidebar-content max-md:fixed min-h-full max-md:w-full max-md:border-b max-md:border-solid max-md:border-black max-md:bg-white overflow-hidden max-md:top-70px h-auto max-md:min-h-0 max-md:h-70px">
+      <div class="fixed flex flex-col gap-40px p-30px border-l border-black h-full min-h-dvh max-md:min-h-0 max-md:relative max-md:h-auto max-md:p-15px max-md:pl-30px max-md:pt-13px">
+          <h1 class="faqsidebar-title text-28px">FAQ</h1>
+            {% section 'FAQsidebar' %}
+      </div>
+    </div>
+    {% section 'FAQcontent' %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('scroll', function(){
+    checkScroll();
+  })
+
+  document.querySelector('.faqsidebar-title').addEventListener('click', function(){
+    if(document.querySelector('.faqsidebar-content').classList.contains('max-md:h-70px')){
+      document.querySelector('.faqsidebar-content').classList.remove('max-md:h-70px')
+    }
+    else{
+      document.querySelector('.faqsidebar-content').classList.add('max-md:h-70px')
+    }
+  })
+
+  checkScroll();
+
+  function checkScroll(){
+    var divs = document.querySelectorAll('.faq_content_item');
+    var sidebars = document.querySelectorAll('.faq_sidebaritem');
+
+    divs.forEach((div, index)=>{
+      var rect = div.getBoundingClientRect();
+
+      if(rect.top > -50 && rect.top < 50){
+        sidebars.forEach((item, num)=>{
+          item.classList.remove('bg-black', 'text-white');
+        })
+        sidebars[index].classList.add('bg-black', 'text-white');
+      }
+    })
+  }
+</script>

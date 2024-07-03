@@ -1,0 +1,76 @@
+<div class="flex flex-col pr-100px min-h-full max-md:pt-110px max-md:pr-30px max-md:pl-30px max-md:pb-30px">
+    {% for block in section.blocks %}
+        {% if block.type == 'header' %}
+            <h1 class="faq_content_item text-28px mb-0 mt-12 pb-40px border-b border-black border-solid max-md:text-19px max-md:pb-30px">{{ block.settings.text_item }}</h1>
+        {% endif %}
+        {% if block.type == 'tab' %}
+            <div class="border-b border-solid border-black h-auto max-md:pt-5px  transition-all duration-500 ease">
+                <h1 class="question text-28px cursor-pointer max-md:text-19px hover:text-customGray m-0">{{ block.settings.question }}</h1>
+                <div class="answer h-0 mt-0 overflow-hidden text-28px text-customGray mb-6px max-md:text-19px transition-all duration-500 ease">
+                    <p class="leading-9  transition-all duration-500 ease">{{ block.settings.answer }}</p>
+                </div>
+            </div>  
+        {% endif %}
+    {% endfor %}
+</div>
+
+<script>
+        var divs = document.querySelectorAll('.question');
+        var contents = document.querySelectorAll('.answer');
+
+        divs.forEach((div, index)=>{
+            div.addEventListener('click', function(){
+                if(contents[index].classList.contains('h-0')){
+                    contents[index].classList.remove('h-0')
+                }
+                else{
+                    contents[index].classList.add('h-0')
+                }
+            })
+        })
+</script>
+
+{% schema %}
+{
+    "name": "FAQcontent",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+        
+    ],
+    "blocks": [
+        {
+            "type": "header",
+            "name": "header",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text_item",
+                    "label": "text item"
+                }
+            ]
+        },
+        {
+            "type": "tab",
+            "name": "tab",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "question",
+                    "label": "question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "answer"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQcontent"
+        }
+    ]
+}
+{% endschema %}

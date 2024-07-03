@@ -1,0 +1,47 @@
+<div class="flex flex-col gap-10px">
+    {% for block in section.blocks %}
+        <span class="faq_sidebaritem-pa flex gap-20px cursor-pointer items-center"><p class="faq_sidebaritem border border-solid rounded-50% border-black flex justify-center items-center w-20px h-20px text-15px">{{ forloop.index }}</p><p class="text-15px">{{ block.settings.text_item }}</p></span>
+    {% endfor %} 
+</div>
+
+<script>
+    document.addEventListener('click', function(){
+        var divs = document.querySelectorAll('.faq_sidebaritem-pa');
+        var contents = document.querySelectorAll('.faq_content_item');
+
+        divs.forEach((div, index)=>{
+            div.addEventListener('click', function(){
+                contents[index].scrollIntoView({behavior:'smooth'})
+            })
+        })
+    })
+</script>
+
+{% schema %}
+{
+    "name": "FAQSidebar",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+        
+    ],
+    "blocks": [
+        {
+            "type": "faq_sidebar_block",
+            "name": "faq_sidebar_block",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text_item",
+                    "label": "text item"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQSidebar"
+        }
+    ]
+}
+{% endschema %}
