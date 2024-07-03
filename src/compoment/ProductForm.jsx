@@ -1,7 +1,5 @@
 import { h, render } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
-import { addProductToCheckout } from './addtoCart'
-import { creageSession } from "./createCheckoutID"
 
 function ProductFrom(data){
 
@@ -100,10 +98,6 @@ function ProductFrom(data){
             }
         }
     },[size, color])
-
-    useEffect(()=>{
-        creageSession()
-    },[])
     
 
     return (
